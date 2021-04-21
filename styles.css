@@ -16,7 +16,7 @@
 }
 
 html, body {
-    font-size: 16px;
+    font-size: 12px;
     margin: 0;
     padding: 0;
 }
@@ -108,7 +108,7 @@ b {
 
 .uc-button__subtext {
     display: block;
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
 
 /* Helpers */

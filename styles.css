@@ -111,6 +111,40 @@ b {
     font-size: 1rem;
 }
 
+/* Adaptivity */
+
+@media (max-width: 1080px) {
+    .uc-h1 {
+        font-size: 3rem;
+        margin-bottom: 3.5rem;
+    }
+    .uc-p {
+        font-size: 1.25rem;
+    }
+    .uc-section {
+        padding: 3.5rem;
+    }
+    .uc-buttons {
+        margin-top: 3.5rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .uc-h1 {
+        font-size: 2.5rem;
+    }
+    .uc-header-left {
+        display: none;
+    }
+    .uc-button {
+        display: block;
+    }
+    .uc-buttons>*:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
+
 /* Helpers */
 
 .uc-flex {

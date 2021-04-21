@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500;700&display=swap');
+
+@keyframes float {
+    from {
+        transform: translateY(-0.5rem);
+    }
+    to {
+        transform: translateY(0.5rem);
+    }
+}
+
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.uc-h1 {
+    font-weight: 500;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 6rem;
+}
+
+.uc-p {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+b {
+    font-weight: 500;
+}
+
+.uc-section {
+    padding: 6rem;
+}
+
+.uc-section--full-height {
+    min-height: 100vh;
+}
+
+.uc-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.uc-header-left {
+    margin-right: 6rem;
+}
+
+.uc-header-right {
+    max-width: 60rem;
+}
+
+.uc-book {
+    width: 30rem;
+    height: auto;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .12);
+    animation: float 6s ease-in-out infinite alternate;
+}
+
+.uc-link {
+    color: inherit;
+    text-decoration: underline dotted;
+}
+
+.uc-buttons {
+    margin-top: 6rem;
+}
+
+.uc-buttons>*:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.uc-button {
+    min-width: 20rem;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    background-color: #212121;
+    color: #f5f5f5;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 1.5rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .12);
+    transition: opacity .2s;
+}
+
+.uc-button:hover {
+    opacity: .8;
+}
+
+.uc-button--accent {
+    color: #212121;
+    background-color: #A8B985;
+    font-weight: 500;
+}
+
+.uc-button__subtext {
+    display: block;
+    font-size: 0.75rem;
+}
+
+/* Helpers */
+
+.uc-flex {
+    display: flex;
+}

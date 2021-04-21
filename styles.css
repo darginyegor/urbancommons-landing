@@ -31,6 +31,7 @@ html, body {
 .uc-p {
     font-weight: 300;
     font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 b {

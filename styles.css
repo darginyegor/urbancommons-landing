@@ -137,8 +137,15 @@ b {
     .uc-p {
         font-size: 1.5rem;
     }
+    .uc-header {
+        flex-direction: column;
+    }
     .uc-header-left {
-        display: none;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    .uc-book {
+        max-width: 50vw;
     }
     .uc-button {
         display: block;
